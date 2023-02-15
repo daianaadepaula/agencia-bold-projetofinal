@@ -102,3 +102,13 @@ section.main {
 .mockup img {
   max-width: 100%;
 }
+
+/* marcas */
+
+section.marcas {
+  padding: 100px 0;
+}
+
+section.marcas img {
+  width: calc(100% / 5);
+}
