@@ -114,6 +114,7 @@ section.marcas img {
 }
 
 /* porque nos */
+
 section.porque-nos {
   padding: 40px 0;
   background-color: #fbfcfe;
@@ -161,4 +162,41 @@ section.porque-nos > .center > p {
   font-size: 13px;
   color: #7e92ac;
   margin-bottom: 20px;
+}
+
+/* cta */
+
+section.cta {
+  background-image: url("../img/cta.svg");
+  background-size: cover;
+  background-position: center;
+  padding: 20px 10px;
+  min-height: 200px;
+  text-align: center;
+  color: #fff;
+  margin-top: 80px;
+}
+
+section.cta h2,
+section.cta h4 {
+  font-weight: normal;
+  margin: 10px 0;
+}
+
+section.cta h2 {
+  font-size: 40px;
+  margin-bottom: 36px;
+}
+
+section.cta a {
+  display: inline-block;
+  padding: 8px 15px;
+  font-weight: bold;
+  font-size: 17px;
+  background: #ffdd33;
+  border-radius: 7px;
+  text-decoration: none;
+  color: #0f3fd3;
+  text-transform: uppercase;
+  margin-top: 40px;
 }
