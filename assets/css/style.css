@@ -399,3 +399,20 @@ section.contato form {
   font-size: 18px;
   border-radius: 10px;
 }
+
+/* footer */
+footer {
+  background-color: #255aff;
+  color: #ffffff;
+  padding: 10px 0;
+  margin-top: 70px;
+}
+
+.text-footer {
+  width: 50%;
+  padding: 8px 0;
+}
+
+footer .center .items-menu {
+  text-align: right;
+}
