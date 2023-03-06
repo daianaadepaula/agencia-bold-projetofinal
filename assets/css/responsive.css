@@ -37,4 +37,19 @@
   .beneficios .img-beneficios img {
     width: 100%;
   }
+  /* footer */
+  .text-footer {
+    width: 100%;
+    text-align: center;
+    padding: 8px 0;
+  }
+  footer .items-menu {
+    width: 100%;
+    text-align: center;
+  }
+  footer .items-menu a {
+    display: block;
+    margin: 10px 0;
+    text-align: center;
+  }
 }
