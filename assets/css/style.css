@@ -81,6 +81,20 @@ section.main {
   border: 0;
 }
 
+header .items-menu-mobile {
+  /* width: 50%;
+  text-align: right; */
+  display: none;
+}
+
+.items-menu-mobile i {
+  position: relative;
+  top: 15px;
+  color: #ffffff;
+  font-size: 23px;
+  cursor: pointer;
+}
+
 /* main */
 
 .mockup {

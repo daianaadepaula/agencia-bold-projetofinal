@@ -1,6 +1,43 @@
 /* responsive */
 
 @media screen and (max-width: 768px) {
+  /* header */
+  header .items-menu-mobile {
+    width: 50%;
+    text-align: right;
+    display: block;
+  }
+  header .items-menu {
+    display: none;
+  }
+  .menu-mobile {
+    opacity: 0;
+    transition: 1s;
+    position: absolute;
+    left: 0;
+    top: 65px;
+    background-color: #ffffff;
+    width: 100%;
+    padding: 15px 0;
+    text-align: center;
+  }
+  .show {
+    opacity: 1;
+  }
+  .hide {
+    opacity: 0;
+  }
+  .menu-mobile a {
+    text-align: center;
+    display: block;
+    margin: 10px 0;
+    color: rgb(40, 40, 40);
+    text-decoration: none;
+    font-weight: bold;
+  }
+  .menu-mobile a:hover {
+    border-bottom: 2px solid #0f3fd3;
+  }
   /* marcas */
   section.marcas > .center {
     flex-wrap: nowrap;
